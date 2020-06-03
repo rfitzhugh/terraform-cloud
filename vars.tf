@@ -28,11 +28,6 @@ variable "aws_vpc" {
     description = "VPC to connect Security Group"
 }
 
-variable "aws_vpc_cidr" {
-    type        = string
-    description = "CIDR for Security Group"
-}
-
 ## =============================================================================
 #  Variables - Tags                                                            #
 ## =============================================================================
