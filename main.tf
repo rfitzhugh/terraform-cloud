@@ -216,7 +216,7 @@ resource "aws_s3_bucket" "nova-s3-use1-c" {
   bucket = "nova-s3-use1-c"
   acl    = "private"
   versioning {
-    enabled = true
+    enabled = false
   }
 
   tags = {
